@@ -31,11 +31,9 @@ for (let index = 0; index < ayarlar.oziwelcometokenler.length; index++) {
             if ((cur.member.roles.highest.rawPosition < cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition)) {
                 ses = await ozicik.play('./welcome.mp3');
                 ozi.push(cur.member.user.id);
-                console.log(ozi);
             } else if (cur.member.roles.highest.rawPosition > cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition) {
                 ses = await ozicik.play('./yetkili.mp3');
                 ozi.push(cur.member.user.id);
-                console.log(ozi);
             }
         }
         if (prev.channel && (prev.channel.id === ayarlar.welcomeseskanalları[index]) && (prev.channel.members.size === 1) && ses) ses.end();
