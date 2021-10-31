@@ -1,2 +1,2 @@
 # Ozi-Welcome
-Sizlerle çok tokenli tek altyapı welcome botumu paylasmak istiyorum.
+Sizlerle çok tokenli welcome botumu paylasmak istiyorum.
