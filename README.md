@@ -1,4 +1,4 @@
-# Ozi Bots
+# Ozi Welcome
 
 - Sizleri geliştirmiş olduğum welcome botlardan biriyle tanıştırmak istiyorum.. 
 - Çok tokenli basit gelismis welcome bot.
